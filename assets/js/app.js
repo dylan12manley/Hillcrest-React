@@ -53,7 +53,7 @@ const pageClasses = {
 };
 
 const customClasses = {
-    'pages\\custom\\category\\react-demo': () => import('./theme/custom/react-demo'),
+    'pages\\custom\\category\\clearance': () => import('./theme/custom/clearance'),
 };
 
 /**
