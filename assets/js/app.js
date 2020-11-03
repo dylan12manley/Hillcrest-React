@@ -52,7 +52,9 @@ const pageClasses = {
     wishlists: () => import('./theme/wishlist'),
 };
 
-const customClasses = {};
+const customClasses = {
+    'pages\\custom\\category\\react-demo': () => import('./theme/custom/react-demo'),
+};
 
 /**
  * This function gets added to the global window and then called
