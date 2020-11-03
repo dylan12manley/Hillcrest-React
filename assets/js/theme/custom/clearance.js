@@ -11,7 +11,7 @@ const HelloWorld = (props) => (
     </div>
 )
 
-export default class ReactDemo extends PageManager {
+export default class Clearance extends PageManager {
     onReady() {
         const container = $('#root')[0]
         ReactDOM.render(<HelloWorld context={this.context}/>, container)
